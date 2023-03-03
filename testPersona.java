@@ -17,5 +17,4 @@ public class testPersona {
         System.out.print(""+p3.toString()); 
     }
 
-    //prueba
 }
