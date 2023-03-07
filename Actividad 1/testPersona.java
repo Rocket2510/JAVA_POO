@@ -1,3 +1,5 @@
+//CARRILLO GARCIA EDGAR JAVIER 2021600265
+
 public class testPersona {
     public static void main(String[] args) {
         System.out.print("\n  Cédula\tNombre Apellido Sexo  Edad");
