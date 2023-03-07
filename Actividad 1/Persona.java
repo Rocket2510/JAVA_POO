@@ -1,3 +1,5 @@
+//CARRILLO GARCIA EDGAR JAVIER 2021600265
+
 public class Persona{
     //Datos o atributos de la clase
     public String cedula, nombre, apellido;
@@ -38,3 +40,4 @@ public class Persona{
                 sexo + "\t" + edad + "\n";
     }
 }
+
