@@ -14,7 +14,7 @@ public class Numero {
     public String Primo(){
         String men; int a = 0;
 
-        for(double i = 1; i < Num; i++){
+        for(double i = 1; i <= Num; i++){
             if(Num % i==0){
                 a++;
             }
@@ -27,12 +27,11 @@ public class Numero {
         }
         return men;
     }
-
     //Método que verifica si un número es perfecto
     public String Perfecto(){
         String men; double a = 0;
 
-        for(double i = 1; i <= Num; i++){
+        for(double i = 1; i < Num; i++){
             if(Num % i==0){
                 a += i;
             }
