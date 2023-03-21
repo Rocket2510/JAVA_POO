@@ -7,7 +7,6 @@ public class Estudiante extends Persona{
     //métodos de la lectura
     public String getEscuela(){ return escuela;}
     public String getSemestre(){ return semestre;}
-    
 
     //métodos de escritura
     public void setEscuela(String escuela){ this.escuela = escuela;}
@@ -42,4 +41,4 @@ public class Estudiante extends Persona{
    public String Imprimir(){
         return (super.Imprimir()+"\t"+getEscuela()+"  "+getSemestre());
    }
-}//Fin de la clase
+}
