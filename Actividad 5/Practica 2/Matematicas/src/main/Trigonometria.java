@@ -3,30 +3,17 @@ import Interfaz.Matematicas;
 
 public class Trigonometria implements Matematicas{
 
-    
+    //metodos para las operaciones
+    @Override
+    public double radianes(double angulo) { return Math.toRadians(angulo); }
 
     @Override
-    public double radianes(double angulo) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'radianes'");
-    }
+    public double grados(double angulo) { return Math.toDegrees(angulo); }
 
     @Override
-    public double grados(double angulo) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'grados'");
-    }
+    public double seno(double ang) { return Math.sin(radianes(ang)); }
 
     @Override
-    public double seno(double ang) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'seno'");
-    }
-
-    @Override
-    public double coseno(double ang) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'coseno'");
-    }
+    public double coseno(double ang) { return Math.cos(radianes(ang)); }
     
 }
