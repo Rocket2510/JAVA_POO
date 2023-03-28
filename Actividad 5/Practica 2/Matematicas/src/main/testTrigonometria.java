@@ -11,6 +11,8 @@ public class testTrigonometria {
         angulo = in.nextDouble();
     }
 
+    System.out.println("------------------------------------");
+
     Trigonometria funcion = new Trigonometria();
     System.out.println("La conversion de "+angulo+"º a radianes es: " + funcion.radianes(angulo));
     System.out.println("La conversion de "+angulo+"RAD a grados es: " + funcion.grados(angulo));
